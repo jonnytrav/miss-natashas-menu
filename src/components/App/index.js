@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import { Route } from "react-router-dom";
 import Header from "../Header";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Route path="/" component={Header}></Route>
     </div>
   );
 }
