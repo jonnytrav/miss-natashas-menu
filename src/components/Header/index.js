@@ -15,9 +15,9 @@ const Header = props => {
     <div>
       <AppBar position="static">
         <Tabs value={tab} position="static" onChange={handleChange}>
-          <Tab label="Home" component={Link} to="/0" />
-          <Tab label="Menu" component={Link} to="/1" />
-          <Tab label="About" component={Link} to="/2" />
+          <Tab label="Home" component={Link} to="/home" />
+          <Tab label="Menu" component={Link} to="/menu" />
+          <Tab label="About" component={Link} to="/about" />
         </Tabs>
       </AppBar>
     </div>
