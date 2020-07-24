@@ -3,19 +3,21 @@ import { Route } from "react-router-dom";
 
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import theme from "../../theme.js";
+import theme from "../../themes/theme.js";
+import useStyles from "./appStyling.js";
 
 import Header from "../Header";
 import LandingPage from "../LandingPage";
 import Menu from "../Menu";
 import About from "../About";
-import "./App.css";
 
 function App() {
+  const classes = useStyles();
+
   return (
     <MuiThemeProvider theme={theme}>
       <CssBaseline />
-      <div className="App">
+      <div className={classes.appWrapper}>
         <Route path="/" component={Header}></Route>
         <Route path="/home" component={LandingPage}></Route>
         <Route path="/menu" component={Menu}></Route>
