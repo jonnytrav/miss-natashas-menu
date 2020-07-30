@@ -18,12 +18,10 @@
     "tailwindcss": "^1.5.2"
   },
   "scripts": {
-    "build:tailwind": "tailwind build src/css/tailwind.css -o src/css/tailwind.output.css",
-    "watch:tailwind": "chokidar 'src/css/tailwind.css' -c 'npm run build:tailwind'",
-    "start": "npm-run-all build:tailwind --parallel watch:tailwind start:react",
-    "start:react": "react-scripts start",
+    "tailwind:css": "tailwind build src/css/tailwind.src.css -c tailwind.config.js -o src/css/tailwind.output.css",
+    "start": "npm run tailwind:css && react-scripts start",
     "prebuild": "npm run build:tailwind",
-    "build": "react-scripts build",
+    "build": "npm run tailwind:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
