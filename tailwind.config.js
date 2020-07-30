@@ -1,8 +1,13 @@
 module.exports = {
-  purge: [],
+  purge: [
+    "src/components/**/*.js",
+    "src/components/**/*.jsx",
+    "src/css/tailwind.css",
+    "public/index.html"
+  ],
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {},
-  plugins: [],
-}
+  plugins: []
+};
