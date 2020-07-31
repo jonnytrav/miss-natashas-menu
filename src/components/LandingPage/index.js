@@ -3,7 +3,7 @@ import "../../css/tailwind.output.css";
 
 const LandingPage = () => {
   return (
-    <div className="bg-green-900">
+    <div className="">
       <h1 className="text-red-600 text-2xl">Welcome!</h1>
     </div>
   );

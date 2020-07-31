@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
+import "./headerStyles.css";
 
 const Header = props => {
   // const [tab, setTab] = useState(0);
@@ -9,8 +9,8 @@ const Header = props => {
   // };
 
   return (
-    <div className="">
-      <ul>
+    <div className="sky-banner">
+      <ul className="flex flex-row">
         <li>
           <a>Home</a>
         </li>

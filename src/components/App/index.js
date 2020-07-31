@@ -8,7 +8,7 @@ import About from "../About";
 
 function App() {
   return (
-    <div className="">
+    <div className="w-full h-64 flex-col">
       <Route path="/" component={Header}></Route>
       <Route path="/home" component={LandingPage}></Route>
       <Route path="/menu" component={Menu}></Route>
