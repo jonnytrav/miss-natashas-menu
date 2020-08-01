@@ -17865,6 +17865,11 @@ video {
 
 @tailwind plugins;
 
+.bg-sky {
+  background-image: url("../images/purple-pink-sky-unsplash.jpg");
+  background-size: cover;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

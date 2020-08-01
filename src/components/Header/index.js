@@ -9,8 +9,8 @@ const Header = props => {
   // };
 
   return (
-    <div className="sky-banner">
-      <ul className="flex flex-row">
+    <div className="">
+      <ul className="flex flex-row justify-center">
         <li>
           <a>Home</a>
         </li>
