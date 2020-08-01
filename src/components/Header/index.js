@@ -11,13 +11,13 @@ const Header = props => {
   return (
     <div className="">
       <ul className="flex flex-row justify-center">
-        <li>
+        <li className="mx-10 my-10 px-2 py-2 rounded-md border border-purple-800 text-white">
           <a>Home</a>
         </li>
-        <li>
+        <li className="mx-10 my-10 px-2 py-2 rounded-md border border-purple-800 text-white">
           <a>Menu</a>
         </li>
-        <li>
+        <li className="mx-10 my-10 px-2 py-2 rounded-md border border-purple-800 text-white">
           <a>About</a>
         </li>
       </ul>
