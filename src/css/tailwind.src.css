@@ -7,3 +7,7 @@
   background-image: url("../images/purple-pink-sky-unsplash.jpg");
   background-size: cover;
 }
+.bg-crinkled {
+  background-image: url("../images/purple-pink-crinkle-unsplash.jpg");
+  background-size: cover;
+}

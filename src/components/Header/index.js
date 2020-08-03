@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./headerStyles.css";
+import { Link } from "react-router-dom";
 
 const Header = props => {
   // const [tab, setTab] = useState(0);
@@ -9,18 +9,30 @@ const Header = props => {
   // };
 
   return (
-    <div className="">
-      <ul className="flex flex-row justify-center">
-        <li className="mx-10 my-10 px-2 py-2 rounded-md border border-purple-800 text-white">
-          <a>Home</a>
-        </li>
-        <li className="mx-10 my-10 px-2 py-2 rounded-md border border-purple-800 text-white">
-          <a>Menu</a>
-        </li>
-        <li className="mx-10 my-10 px-2 py-2 rounded-md border border-purple-800 text-white">
-          <a>About</a>
-        </li>
-      </ul>
+    <div>
+      <div className="w-2/3 mx-auto pt-4 bg-crinkled bg-cover bg-center">
+        <ul className="flex flex-row justify-center">
+          <Link
+            to="/home"
+            className="rounded-md border border-purple-800 text-white mx-10 my-10 px-2 py-2"
+          >
+            <a>Home</a>
+          </Link>
+
+          <Link
+            to="/menu"
+            className="rounded-md border border-purple-800 text-white mx-10 my-10 px-2 py-2"
+          >
+            <a>Menu</a>
+          </Link>
+          <Link
+            to="/about"
+            className="rounded-md border border-purple-800 text-white mx-10 my-10 px-2 py-2"
+          >
+            <a>About</a>
+          </Link>
+        </ul>
+      </div>
     </div>
   );
 };

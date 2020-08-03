@@ -17870,6 +17870,10 @@ video {
   background-size: cover;
 }
 
+.bg-crinkled {
+  background-image: url("../images/purple-pink-crinkle-unsplash.jpg");
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
