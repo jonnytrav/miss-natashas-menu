@@ -10,7 +10,7 @@ const Header = props => {
 
   return (
     <div>
-      <div className="border-2 border-white w-2/3 h-64 mx-auto pt-10 bg-crinkled bg-cover bg-center rounded-md">
+      <div className="border-2 border-white w-2/3 h-64 mx-auto pt-10 bg-crinkled bg-cover bg-center rounded-md relative z-0">
         <ul className="flex flex-row justify-center">
           <Link
             to="/home"
