@@ -11,6 +11,11 @@ const Header = props => {
   return (
     <div className="border-2 border-white w-2/3 h-64 mx-auto pt-10 bg-slanted-purple bg-cover bg-center rounded-md relative z-0">
       <div className="flex flex-row justify-center">
+        <h1 className="text-5xl text-white font-thick-cursive mx-auto">
+          Miss Tasha's Menu
+        </h1>
+      </div>
+      <div className="flex flex-row justify-center">
         <Link
           to="/home"
           // *********** look into "active" utility class later *************
@@ -32,11 +37,6 @@ const Header = props => {
         >
           <a>About</a>
         </Link>
-      </div>
-      <div className="flex flex-row justify-center">
-        <h1 className="text-5xl text-white font-thick-cursive mx-auto">
-          Miss Tasha's Menu
-        </h1>
       </div>
     </div>
   );
