@@ -9,7 +9,7 @@ const Header = props => {
   // };
 
   return (
-    <div className="border-2 border-white w-2/3 h-64 mx-auto pt-10 bg-crinkled bg-cover bg-center rounded-md relative z-0">
+    <div className="border-2 border-white w-2/3 h-64 mx-auto pt-10 bg-slanted-purple bg-cover bg-center rounded-md relative z-0">
       <div className="flex flex-row justify-center">
         <Link
           to="/home"
