@@ -35,7 +35,7 @@ const Header = props => {
           to="/gallery"
           className="rounded-md border border-purple-800 text-white mx-10 my-10 px-2 py-2 hover:border-purple-400 shadow-lg"
         >
-          <a>About</a>
+          <a>Gallery</a>
         </Link>
       </div>
     </div>
