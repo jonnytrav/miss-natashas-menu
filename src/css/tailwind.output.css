@@ -6060,6 +6060,14 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-cursive {
+  font-family: Monsieur La Doulaise, cursive;
+}
+
+.font-thick-cursive {
+  font-family: Molle, cursive;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -17885,14 +17893,15 @@ video {
 
 @tailwind plugins;
 
-.bg-sky {
-  background-image: url("../images/purple-pink-sky-unsplash.jpg");
+.bg-cookies {
+  background-image: url("../images/cookies-n-pink.jpg");
   background-size: cover;
 }
 
-.bg-crinkled {
-  background-image: url("../images/purple-pink-crinkle-unsplash.jpg");
+.bg-slanted {
+  background-image: url("../images/purple-slanted.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 @media (min-width: 640px) {
@@ -23364,6 +23373,14 @@ video {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-cursive {
+    font-family: Monsieur La Doulaise, cursive;
+  }
+
+  .sm\:font-thick-cursive {
+    font-family: Molle, cursive;
   }
 
   .sm\:font-hairline {
@@ -40661,6 +40678,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-cursive {
+    font-family: Monsieur La Doulaise, cursive;
+  }
+
+  .md\:font-thick-cursive {
+    font-family: Molle, cursive;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -57956,6 +57981,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-cursive {
+    font-family: Monsieur La Doulaise, cursive;
+  }
+
+  .lg\:font-thick-cursive {
+    font-family: Molle, cursive;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -75249,6 +75282,14 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-cursive {
+    font-family: Monsieur La Doulaise, cursive;
+  }
+
+  .xl\:font-thick-cursive {
+    font-family: Molle, cursive;
   }
 
   .xl\:font-hairline {

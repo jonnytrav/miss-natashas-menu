@@ -258,7 +258,9 @@ module.exports = {
         '"Liberation Mono"',
         '"Courier New"',
         "monospace"
-      ]
+      ],
+      cursive: ["Monsieur La Doulaise", "cursive"],
+      'thick-cursive': ["Molle", "cursive"]
     },
     fontSize: {
       xs: "0.75rem",
