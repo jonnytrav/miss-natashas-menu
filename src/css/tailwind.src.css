@@ -3,11 +3,12 @@
 @tailwind utilities;
 @tailwind plugins;
 
-.bg-sky {
-  background-image: url("../images/purple-pink-sky-unsplash.jpg");
+.bg-cookies {
+  background-image: url("../images/cookies-n-pink.jpg");
   background-size: cover;
 }
-.bg-crinkled {
-  background-image: url("../images/purple-pink-crinkle-unsplash.jpg");
+.bg-slanted {
+  background-image: url("../images/purple-slanted.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
