@@ -17904,6 +17904,16 @@ video {
   background-attachment: fixed;
 }
 
+.gallery1 {
+  background-image: url("../images/gallery/FullSizeRender1.jpeg");
+  background-size: cover;
+}
+
+.gallery4 {
+  background-image: url("../images/gallery/FullSizeRender4.jpeg");
+  background-size: cover;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

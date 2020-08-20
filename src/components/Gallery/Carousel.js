@@ -8,18 +8,19 @@ import "react-slideshow-image/dist/styles.css";
 
 const galleryImages = [
   "../../images/gallery/FullSizeRender4.jpeg",
-  "../../images/gallery/FullSizeRender5.jpeg"
+  "../../images/gallery/FullSizeRender5.jpeg",
+  "../../images/cookies-n-pink.jpg"
 ];
 
 const GalleryCarousel = () => {
   return (
     <div>
       <Slide>
-        <div className="each-slide w-full">
-          <div style={{ backgroundImage: `url(${galleryImages[0]})` }}></div>
+        <div className="each-slide w-full h-64">
+          <div className="h-full gallery1"></div>
         </div>
         <div className="each-slide">
-          <div style={{ backgroundImage: `url(${galleryImages[1]})` }}></div>
+          <div className="gallery4"></div>
         </div>
       </Slide>
     </div>
