@@ -1,30 +1,24 @@
 import React, { useState } from "react";
-// import Carousel, { Dots } from "@brainhubeu/react-carousel"
-// import "@brainhubeu/react-carousel/lib/style.css";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-// import Pic1 from "../../images/gallery/FullSizeRender4.jpeg";
-
-const galleryImages = [
-  "../../images/gallery/FullSizeRender4.jpeg",
-  "../../images/gallery/FullSizeRender5.jpeg",
-  "../../images/cookies-n-pink.jpg"
-];
-
-const GalleryCarousel = () => {
+const Carousel = () => {
   return (
-    <div>
-      <Slide>
-        <div className="each-slide w-full h-64">
-          <div className="h-full gallery1"></div>
-        </div>
-        <div className="each-slide">
-          <div className="gallery4"></div>
-        </div>
+    <div className="h-full">
+      <Slide className="h-full">
+        {/* USE @APPLY FOR THESE CLASSES LATER */}
+        <div className="each-slide h-64 basic-gal-img gallery-1 bg-center rounded-sm"></div>
+        <div className="each-slide h-64 basic-gal-img gallery-2 bg-center rounded-sm"></div>
+        <div className="each-slide h-64 basic-gal-img gallery-3 bg-center rounded-sm"></div>
+        <div className="each-slide h-64 basic-gal-img gallery-4 bg-center rounded-sm"></div>
+        <div className="each-slide h-64 basic-gal-img gallery-5 bg-center rounded-sm"></div>
+        <div className="each-slide h-64 basic-gal-img gallery-6 bg-center rounded-sm"></div>
+        <div className="each-slide h-64 basic-gal-img gallery-7 bg-center rounded-sm"></div>
+        <div className="each-slide h-64 basic-gal-img gallery-8 bg-center rounded-sm"></div>
+        <div className="each-slide h-64 basic-gal-img gallery-9 bg-center rounded-sm"></div>
       </Slide>
     </div>
   );
 };
 
-export default GalleryCarousel;
+export default Carousel;

@@ -260,7 +260,7 @@ module.exports = {
         "monospace"
       ],
       cursive: ["Monsieur La Doulaise", "cursive"],
-      'thick-cursive': ["Molle", "cursive"]
+      "thick-cursive": ["Molle", "cursive"]
     },
     fontSize: {
       xs: "0.75rem",
@@ -289,6 +289,7 @@ module.exports = {
       auto: "auto",
       ...theme("spacing"),
       full: "100%",
+      "65-pc": "65%",
       screen: "100vh"
     }),
     inset: {

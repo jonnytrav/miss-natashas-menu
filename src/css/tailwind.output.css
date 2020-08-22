@@ -6260,6 +6260,10 @@ video {
   height: 100%;
 }
 
+.h-65-pc {
+  height: 65%;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -17904,14 +17908,55 @@ video {
   background-attachment: fixed;
 }
 
-.gallery1 {
-  background-image: url("../images/gallery/FullSizeRender1.jpeg");
+/* BRUTE FORCE SOLUTION FOR GALLERY IMAGES USING CUSTUM CSS below */
+
+.basic-gal-img {
+  border: solid 2px transparent;
+}
+
+.gallery-1 {
+  background-image: url("../images/gallery/gallery1.jpeg");
   background-size: cover;
 }
 
-.gallery4 {
-  background-image: url("../images/gallery/FullSizeRender4.jpeg");
+.gallery-2 {
+  background-image: url("../images/gallery/gallery2.jpeg");
   background-size: cover;
+}
+
+.gallery-3 {
+  background-image: url("../images/gallery/gallery3.jpeg");
+  background-size: cover;
+}
+
+.gallery-4 {
+  background-image: url("../images/gallery/gallery4.jpeg");
+  background-size: contain;
+}
+
+.gallery-5 {
+  background-image: url("../images/gallery/gallery5.jpeg");
+  background-size: cover;
+}
+
+.gallery-6 {
+  background-image: url("../images/gallery/gallery6.jpeg");
+  background-size: contain;
+}
+
+.gallery-7 {
+  background-image: url("../images/gallery/gallery7.jpeg");
+  background-size: cover;
+}
+
+.gallery-8 {
+  background-image: url("../images/gallery/gallery8.jpeg");
+  background-size: contain;
+}
+
+.gallery-9 {
+  background-image: url("../images/gallery/gallery9.jpeg");
+  background-size: contain;
 }
 
 @media (min-width: 640px) {
@@ -23583,6 +23628,10 @@ video {
 
   .sm\:h-full {
     height: 100%;
+  }
+
+  .sm\:h-65-pc {
+    height: 65%;
   }
 
   .sm\:h-screen {
@@ -40888,6 +40937,10 @@ video {
     height: 100%;
   }
 
+  .md\:h-65-pc {
+    height: 65%;
+  }
+
   .md\:h-screen {
     height: 100vh;
   }
@@ -58191,6 +58244,10 @@ video {
     height: 100%;
   }
 
+  .lg\:h-65-pc {
+    height: 65%;
+  }
+
   .lg\:h-screen {
     height: 100vh;
   }
@@ -75492,6 +75549,10 @@ video {
 
   .xl\:h-full {
     height: 100%;
+  }
+
+  .xl\:h-65-pc {
+    height: 65%;
   }
 
   .xl\:h-screen {
