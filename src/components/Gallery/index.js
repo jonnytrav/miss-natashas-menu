@@ -1,8 +1,12 @@
 import React from "react";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import Carousel from "./Carousel.js";
 
 const Gallery = () => {
-  return <div className="border border-red-600"></div>;
+  return (
+    <div className="h-full">
+      <Carousel />
+    </div>
+  );
 };
 
 export default Gallery;
