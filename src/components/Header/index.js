@@ -23,14 +23,18 @@ const Header = props => {
         >
           <a>Home</a>
         </Link>
-
         <Link
           to="/menu"
           className="rounded-md border border-purple-800 text-white mx-10 my-10 px-2 py-2 hover:border-purple-400 shadow-lg"
         >
           <a>Menu</a>
         </Link>
-
+        <Link
+          to="/social"
+          className="rounded-md border border-purple-800 text-white mx-10 my-10 px-2 py-2 hover:border-purple-400 shadow-lg"
+        >
+          <a>Social Media</a>
+        </Link>
         <Link
           to="/gallery"
           className="rounded-md border border-purple-800 text-white mx-10 my-10 px-2 py-2 hover:border-purple-400 shadow-lg"

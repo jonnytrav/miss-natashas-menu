@@ -5,6 +5,7 @@ import Header from "../Header";
 import LandingPage from "../LandingPage";
 import Menu from "../Menu";
 import Gallery from "../Gallery";
+import SocialMedia from "../SocialMedia";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/home" component={LandingPage}></Route>
         <Route path="/menu" component={Menu}></Route>
         <Route path="/gallery" component={Gallery}></Route>
+        <Route path="/social" component={SocialMedia}></Route>
       </div>
     </div>
   );
