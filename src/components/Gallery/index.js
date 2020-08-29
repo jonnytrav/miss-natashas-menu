@@ -3,7 +3,7 @@ import Carousel from "./Carousel.js";
 
 const Gallery = () => {
   return (
-    <div className="h-full">
+    <div className="h-full w-2/3 mx-auto">
       <Carousel />
     </div>
   );
