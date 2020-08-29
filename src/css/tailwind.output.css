@@ -7524,6 +7524,18 @@ video {
   margin-left: -1px;
 }
 
+.max-h-1\/2 {
+  max-height: 50%;
+}
+
+.max-h-2\/3 {
+  max-height: 66%;
+}
+
+.max-h-3\/4 {
+  max-height: 75%;
+}
+
 .max-h-full {
   max-height: 100%;
 }
@@ -17959,6 +17971,11 @@ video {
   background-size: contain;
 }
 
+.twitter-logo {
+  background-image: url("../images/icons/Twitter-Logo-Blue.png");
+  background-size: contain;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -24892,6 +24909,18 @@ video {
 
   .sm\:-ml-px {
     margin-left: -1px;
+  }
+
+  .sm\:max-h-1\/2 {
+    max-height: 50%;
+  }
+
+  .sm\:max-h-2\/3 {
+    max-height: 66%;
+  }
+
+  .sm\:max-h-3\/4 {
+    max-height: 75%;
   }
 
   .sm\:max-h-full {
@@ -42201,6 +42230,18 @@ video {
     margin-left: -1px;
   }
 
+  .md\:max-h-1\/2 {
+    max-height: 50%;
+  }
+
+  .md\:max-h-2\/3 {
+    max-height: 66%;
+  }
+
+  .md\:max-h-3\/4 {
+    max-height: 75%;
+  }
+
   .md\:max-h-full {
     max-height: 100%;
   }
@@ -59508,6 +59549,18 @@ video {
     margin-left: -1px;
   }
 
+  .lg\:max-h-1\/2 {
+    max-height: 50%;
+  }
+
+  .lg\:max-h-2\/3 {
+    max-height: 66%;
+  }
+
+  .lg\:max-h-3\/4 {
+    max-height: 75%;
+  }
+
   .lg\:max-h-full {
     max-height: 100%;
   }
@@ -76813,6 +76866,18 @@ video {
 
   .xl\:-ml-px {
     margin-left: -1px;
+  }
+
+  .xl\:max-h-1\/2 {
+    max-height: 50%;
+  }
+
+  .xl\:max-h-2\/3 {
+    max-height: 66%;
+  }
+
+  .xl\:max-h-3\/4 {
+    max-height: 75%;
   }
 
   .xl\:max-h-full {

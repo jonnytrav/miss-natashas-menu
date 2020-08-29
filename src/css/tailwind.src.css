@@ -53,3 +53,8 @@
   background-image: url("../images/gallery/gallery9.jpeg");
   background-size: contain;
 }
+
+.twitter-logo {
+  background-image: url("../images/icons/Twitter-Logo-Blue.png");
+  background-size: contain;
+}
