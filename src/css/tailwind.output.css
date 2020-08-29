@@ -17972,7 +17972,17 @@ video {
 }
 
 .twitter-logo {
-  background-image: url("../images/icons/Twitter-Logo-Blue.png");
+  background-image: url("../images/icons/Twitter-Logo.png");
+  background-size: contain;
+}
+
+.facebook-logo {
+  background-image: url("../images/icons/Facebook-Logo.png");
+  background-size: contain;
+}
+
+.instagram-logo {
+  background-image: url("../images/icons/Instagram-Logo.png");
   background-size: contain;
 }
 
