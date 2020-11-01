@@ -9,9 +9,11 @@ import SocialMedia from "../SocialMedia";
 
 function App() {
   return (
-    <div className="bg-slanted h-screen pt-10">
+    // pt-10
+    <div className="bg-slanted h-screen">
       <Route path="/" component={Header}></Route>
-      <div className="w-4/5 h-65-pc border border-white mx-auto -mt-8 pt-20 rounded-lg shadow-lg bg-white bg-opacity-50">
+      <div className="w-11/12 h-65-pc border border-white mx-auto -mt-8 pt-20 rounded-lg shadow-lg ">
+        {/* for above ^^ bg-white bg-opacity-50/// border-purple-800 */}
         <Route path="/home" component={LandingPage}></Route>
         <Route path="/menu" component={Menu}></Route>
         <Route path="/gallery" component={Gallery}></Route>
