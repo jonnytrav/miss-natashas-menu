@@ -3,12 +3,12 @@ import "../../css/tailwind.output.css";
 
 const LandingPage = () => {
   return (
-    <div className="flex flex-row flex-no-wrap">
-      <div className="w-1/3">
-        <h3 className="">
+    <div className="flex flex-row flex-no-wrap justify-around">
+      <div className="w-1/4 p-8 rounded-lg shadow-xl bg-customGray text-purple-900">
+        <h3 className="text-lg text-center mb-6">
           <strong>About Me</strong>
         </h3>
-        <p>
+        <p className="text-center">
           With more than a decade of culinary experience under my belt, I like
           to think I've now found my niche. Got a sweet tooth? You've come to
           the right place. I combine my professional training with copius
@@ -18,27 +18,30 @@ const LandingPage = () => {
         </p>
       </div>
 
-      <div className="w-1/3">
+      <div className="w-1/4">
         <div className="">Profile Picture Here</div>
       </div>
 
-      <div className="w-1/3">
-        {/* NAME */}
-        <div>
+      <div className="w-1/4 p-8 rounded-lg shadow-xl bg-customGray text-purple-900">
+        <h3 className="text-lg text-center mb-6">
+          <strong>Details</strong>
+        </h3>
+
+        <div className="flex flex-row justify-between mb-2">
           <span>
             <strong>Name: </strong>
           </span>
           <span>LaTasha Williams</span>
         </div>
-        {/* AGE */}
-        <div>
+
+        <div className="flex flex-row justify-between mb-2">
           <span>
             <strong>Age: </strong>
           </span>
           <span>25</span>
         </div>
-        {/* LOCATION */}
-        <div>
+
+        <div className="flex flex-row justify-between mb-2">
           <span>
             <strong>Location: </strong>
           </span>
