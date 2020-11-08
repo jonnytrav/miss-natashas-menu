@@ -5,7 +5,7 @@ const LandingPage = () => {
   return (
     <div className="flex flex-row flex-no-wrap justify-around">
       <div className="w-1/4 p-8 rounded-lg shadow-xl bg-customGray text-purple-900">
-        <h3 className="text-lg text-center mb-6 underline">
+        <h3 className="text-lg text-center mb-6">
           <strong>About Me</strong>
         </h3>
         <p className="text-center">
@@ -23,7 +23,7 @@ const LandingPage = () => {
       </div>
 
       <div className="w-1/4 p-8 rounded-lg shadow-xl bg-customGray text-purple-900">
-        <h3 className="text-lg text-center mb-6 underline">
+        <h3 className="text-lg text-center mb-6">
           <strong>Details</strong>
         </h3>
 
